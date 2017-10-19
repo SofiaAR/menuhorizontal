@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+}
+nav{
+  /*outline: 1px solid yellow;*/
+}
+ul{
+  /*outline: 1px solid blue;*/
+  list-style: none; /*para quitar viñetas*/
+  padding: 0;
+  margin: 0;
+  background: #2e2e2a;
+  line-height: 45px;/*da espacio entre el texto y el margen*/
+/*  overflow: auto;*/
+  /*text-align: center;/*queda alineado al centro de la pagina*/
+
+
+}
+li{
+  /*outline: 1px solid red;*/
+  width: 100px;
+  display: inline-block;/*etiqueta que hace que et.bloque se comporte cmo et.inline
+  poniendo cada elemento uno al lado de otro */
+  text-align: center; /*queda alienado cn respecto a su espacio*/
+  /*float:left; sirve para ponerlas una al lado de otro pero no se ve el fondo porq las
+  saca de contexto cada vez q se utilic hay q usar overflow en el contenedor*/
+
+}
+a{
+  /*outline: 1px solid green;*/
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
+a:hover{
+  background: #f9a91a;*/
+  color:#000;
+}
